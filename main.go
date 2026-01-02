@@ -10,9 +10,6 @@ import (
 )
 
 func main() {
-	// 设置时区为 UTC+8
-	time.Local = time.FixedZone("CST", 8*3600)
-
 	// 从环境变量读取配置
 	url := os.Getenv("TARGET_URL")
 	if url == "" {
