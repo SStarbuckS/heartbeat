@@ -1,6 +1,6 @@
 services:
   heartbeat:
-    image: heartbeat:latest
+    image: sstarbucks/heartbeat:latest
     container_name: heartbeat
     restart: unless-stopped
     environment:
